@@ -13,5 +13,4 @@ int main(){
     count_digits(array);
     cout<<endl;
 
-    return 0;
 }
