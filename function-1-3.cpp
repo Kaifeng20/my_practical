@@ -58,5 +58,18 @@ void count_digits(int array[4][4]){
         cout << i << ":" << num[i] << ";"; 
     } 
     cout << endl;
-    return 0;
+
 }
+
+
+// int main(){
+//     int array[4][4] = {
+//         {1,2,3,4},
+//         {1,2,3,4},
+//         {1,2,3,4},
+//         {1,2,3,4}
+//     };
+//     count_digits(array);
+//     cout<<endl;
+
+// }
