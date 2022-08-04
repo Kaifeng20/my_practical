@@ -39,11 +39,11 @@ int is_identity(int array[10][10]){
 
 //     if(is_identity(array) == 1) 
 //     { 
-//     cout << "Matrix of integers is Identity" << endl<< endl; 
+//     cout << "Matrix of integers is Identity" << endl; 
 //     } 
 //     else 
 //     { 
-//     cout << "Matrix of integers is Not Identity" << endl<< endl; 
+//     cout << "Matrix of integers is Not Identity" << endl; 
 //     } 
 //     return 0;
 //     }
