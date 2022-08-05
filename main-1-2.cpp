@@ -18,5 +18,5 @@ int main(){
     }; 
 
     std::cout << is_identity(array) << std::endl;
-    return 0;
+
 }
