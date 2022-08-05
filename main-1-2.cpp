@@ -17,7 +17,14 @@ int main(){
     {0,0,0,0,0,0,0,0,0,1}, 
     }; 
 
-    cout<<"Matrix of integers: "<<is_identity(array)<<endl;
+    if (is_identity(array))
+    {
+        cout<<"This is identity marix"<<endl;
+    }
+    else
+    {
+        cout<<"This is not identity marix"<<endl;
+    }
 
     return 0;
 }
