@@ -17,6 +17,13 @@ int main(){
     {0,0,0,0,0,0,0,0,0,1}, 
     }; 
 
-    std::cout << is_identity(array) << std::endl;
+    if (is_identity(array)){
+        cout <<"This is identity matrix"<< endl;
+        }
+    else
+        {
+            cout << "This is not identity matrix" << endl;
+            }
+    }
 
 }
