@@ -10,7 +10,7 @@ int main(){
         {1,2,3,4},
         {1,2,3,4}
     };
-    count_digits(array);
+    count_digits(array,3);
     cout<<endl;
 
 }
