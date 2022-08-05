@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 
@@ -10,7 +11,7 @@ int main(){
         {1,2,3,4},
         {1,2,3,4}
     };
-    count_digits(array,3);
+    count_digits(array);
     cout<<endl;
 
 }
