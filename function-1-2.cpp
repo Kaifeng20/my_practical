@@ -45,5 +45,6 @@ int is_identity(int array[10][10]){
 //     {0,0,0,0,0,0,0,0,0,1}, 
 // }; 
 
-//     cout<<is_identity(array)<<endl;
+//     cout<<"Matrix of integers: "<<is_identity(array)<<endl;
+//     return 0;
 // }
