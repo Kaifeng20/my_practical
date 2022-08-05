@@ -11,6 +11,14 @@ int is_identity(int array[10][10]){
                 if (array[i][j] != 1)
                 return 0;
             }
+            else if (i != j)
+            {
+                if (array[i][j] != 0)
+                {
+                    return 0;
+                }
+            }
+
             else
             {
                 return 1;
@@ -25,7 +33,7 @@ int is_identity(int array[10][10]){
 
 // int main(){
 //     int array[10][10] = {
-//     {3,0,0,0,0,0,0,0,0,0}, 
+//     {1,0,0,0,0,0,3,0,0,0}, 
 //     {0,1,0,0,0,0,0,0,0,0}, 
 //     {0,0,1,0,0,0,0,0,0,0}, 
 //     {0,0,0,1,0,0,0,0,0,0}, 
@@ -37,13 +45,5 @@ int is_identity(int array[10][10]){
 //     {0,0,0,0,0,0,0,0,0,1}, 
 // }; 
 
-//     if(is_identity(array) == 1) 
-//     { 
-//     cout << "Matrix of integers is Identity" << endl; 
-//     } 
-//     else 
-//     { 
-//     cout << "Matrix of integers is Not Identity" << endl; 
-//     } 
-//     return 0;
-//     }
+//     cout<<is_identity(array)<<endl;
+// }

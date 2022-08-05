@@ -13,15 +13,7 @@ int main(){
     {0,0,0,0,0,0,0,1,0,0}, 
     {0,0,0,0,0,0,0,0,1,0}, 
     {0,0,0,0,0,0,0,0,0,1}, 
-}; 
+    }; 
 
-    if(is_identity(array) == 1) 
-    { 
-    cout << "Matrix of integers is Identity" << endl; 
-    } 
-    else 
-    { 
-    cout << "Matrix of integers is Not Identity" << endl; 
-    } 
-    return 0;
-    }
+    cout<<"Matrix of integers"<<is_identity(array)<<endl;
+}
