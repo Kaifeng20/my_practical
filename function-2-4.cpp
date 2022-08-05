@@ -12,7 +12,7 @@ int array_max(int integers[], int length)
             max = integers[i];
         }
     }
-    cout << max << " + ";
+
     return max;
 }
 
@@ -26,14 +26,21 @@ int array_min(int integers[], int length)
             min = integers[i];
         }
     }
-    cout << min << " = ";
+
     return min;
 }
 
 
 int sum_min_max(int integers[], int length)
 {
-    return (array_max(integers, length) + array_min(integers, length));
+    int array1 = 0;
+    int array2 = 0;
+    int sum = 0;
+    array1 = array_max(integers, length);
+    array2 = array_min(integers, length);
+    sum = array1 + array2;
+    return sum;
 }
+
 
 
