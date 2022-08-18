@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+extern void string_2d_copy(std::string first[][2], std::string second[][2], int n);
 
 int main() {
     string first[3][2] = {{"Jiang Xi","Is myHome"}, {"Australia","Adelaide"}, {"Beijing","China"}};
