@@ -1,12 +1,20 @@
-#include <iostream>
-using namespace std;
-
-extern int sum_diagonal(int array[4][4]);
-
-int main(){
-    int test[4][4] = {{0,1,2,1},{2,3,4,5},{3,4,5,6},{4,5,6,7}};
-
-    cout<< "The sum of the elements along the main diagonal is: " << sum_diagonal(test) << endl << endl;    
-
-    return 0;
+int main() {
+    string first[3][2] = {{"Jiang Xi","Is myHome"}, {"Australia","Adelaide"}, {"Beijing","China"}};
+    
+    string second[3][2];
+    string_2d_copy(first, second, 3);
+    
+    cout<<"This value is: "<<endl<<endl;
+    
+    for(int i=0; i<3; i++) {
+        for(int j=0; j<2; j++) {
+            
+            cout<<second[i][j]<<" ";
+            }
+        
+        cout<<endl;
+        
+        }
+    return 1;
 }
+
