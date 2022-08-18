@@ -14,7 +14,7 @@ int main(){
         }
     cout<<endl;
     cout<<"The muliple of sevens are --"<<endl;
-    print_sevens(arr,length);
+    multiples_of_seven(arr,length);
     
     return 0;
 }
