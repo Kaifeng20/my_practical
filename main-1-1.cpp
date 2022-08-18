@@ -1,3 +1,7 @@
+#include <iostream>
+using namespace std;
+
+
 int main() {
     string first[3][2] = {{"Jiang Xi","Is myHome"}, {"Australia","Adelaide"}, {"Beijing","China"}};
     
