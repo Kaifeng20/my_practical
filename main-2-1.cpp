@@ -86,21 +86,14 @@ int main()
         cout << "Capybara added" << endl;
     }
 
-    // checking if wagon is empty or not
-    cout << "\nisWagon Empty (1 -> true | 0 -> false): " << wg.isEmpty() << endl;
-
     cout << endl;
     // printing all the capybaras in the wagon
     wg.printCapybaras();
 
     cout << endl;
     // emptying the wagon
-    cout << "**Emptying the Wagon" << endl;
+    cout << "Wagon is Emptying" << endl;
     wg.emptyWagon();
 
-    // checking if wagon is empty or not
-    cout << "\nisWagon Empty (1 -> true | 0 -> false): " << wg.isEmpty() << endl;
 
-
-    return 0;
 }
