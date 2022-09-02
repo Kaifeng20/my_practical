@@ -2,7 +2,7 @@
 
 void Capybara::setName(string capyName)
 {
-    capyName = name;
+    name = capyName;
 }
 
 string Capybara::getName()
@@ -12,7 +12,7 @@ string Capybara::getName()
 
 void Capybara::setAge(int capyAge)
 {
-    capyAge = age;
+    age = capyAge;
 }
 
 int Capybara::getAge()
