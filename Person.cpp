@@ -24,5 +24,5 @@ void Person::setSalary(int mySalary)
 
 int Person::getSalary()
 {
-    return salary
+    return salary;
 }
