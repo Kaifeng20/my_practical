@@ -1,32 +1,39 @@
 #include <iostream>
 using namespace std;
 #include <string>
-#include "Capybara.h"
-
-Capybara::Capybara()
-{
-    name = "?";
-    age = 3;
-}
-
-void Capybara::setName(string capyName)
-{
-    name = capyName;
-}
-
-string Capybara::getName()
-{
-    return name;
-}
-
-void Capybara::setAge(int capyAge)
-{
-    capyAge = age;
-}
-
-int Capybara::setAge()
-{
-    return age;
-}
 
 
+class Capybara{
+
+public:
+    string name;
+    int age;
+
+    void setName(string capyName)
+    {
+        capyName = name;
+    }
+
+    string getName()
+    {
+        return name;
+    }
+
+    void setAge(int capyAge)
+    {
+        capyAge = age;
+    }
+
+    int getAge()
+    {
+        return age;
+    }
+};
+
+// int main(){
+//     Capybara c1;
+//     c1.age = 3;
+//     c1.name = "boy";
+
+//     cout<< "Capybara name: "<< c1.getName()<<"Capybara age: "<< c1.getAge()<<endl;
+// }

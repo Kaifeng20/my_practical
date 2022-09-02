@@ -4,6 +4,7 @@ using namespace std;
 #include "Capybara.h" 
 
 int main(){
+    
     Capybara c1;
     c1.age = 3;
     c1.name = "boy";

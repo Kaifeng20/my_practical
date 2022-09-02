@@ -7,11 +7,23 @@ public:
     string name;
     int age;
 
-    void setName(std::string capyName);
-    
-    string getName();
+    void setName(string capyName)
+    {
+        capyName = name;
+    }
 
-    void setAge(int capyAge);
+    string getName()
+    {
+        return name;
+    }
 
-    int getAge();
+    void setAge(int capyAge)
+    {
+        capyAge = age;
+    }
+
+    int getAge()
+    {
+        return age;
+    }
 };
