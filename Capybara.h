@@ -7,23 +7,11 @@ public:
     string name;
     int age;
 
-    void setName(string capyName)
-    {
-        capyName = name;
-    }
+    void setName(string capyName);
 
-    string getName()
-    {
-        return name;
-    }
+    string getName();
 
-    void setAge(int capyAge)
-    {
-        capyAge = age;
-    }
+    void setAge(int capyAge);
 
-    int getAge()
-    {
-        return age;
-    }
+    int getAge();
 };
