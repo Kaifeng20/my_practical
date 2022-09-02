@@ -4,7 +4,7 @@ using namespace std;
 
 class Capybara{
 public:
-    Capybara();
+
     string name;
     int age;
 

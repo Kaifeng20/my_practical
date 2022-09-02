@@ -1,11 +1,6 @@
 #include "Capybara.h"
 
-Capybara::Capybara()
-{
-    // intialising the data members with the default name and age
-    this->name = "cp0";
-    this->age = 14;
-}
+
 
 void Capybara::setName(string capyName)
 {
