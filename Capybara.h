@@ -2,16 +2,18 @@
 using namespace std;
 #include <string>
 
-class Capybara{
-public:
+class Capybara
+{
+private:
+    // variable to store the  name and the age of the capybara
     string name;
     int age;
 
-    void setName(string capyName);
+public:
+    Capybara();
+    Capybara(string name, int age);
 
+    // getters functions
     string getName();
-
-    void setAge(int capyAge);
-
     int getAge();
 };

@@ -1,30 +1,30 @@
 #include "Capybara.h"
 
-void Capybara::setName(string capyName)
+Capybara::Capybara()
 {
-    name = capyName;
+    // intialising the data members with the default name and age
+    this->name = "cp0";
+    this->age = 14;
 }
 
+// parameteried constructor
+Capybara::Capybara(string name, int age)
+{
+    // intialising the data members with the passed name and age
+    this->name = name;
+    this->age = age;
+}
+
+// function to get the name of the capybara
 string Capybara::getName()
 {
-    return name;
+    // returning the name of the cabybara
+    return this->name;
 }
 
-void Capybara::setAge(int capyAge)
-{
-    age = capyAge;
-}
-
+// fucntion to get the age of the capybara
 int Capybara::getAge()
 {
-    return age;
+    // returning the age of the capybara
+    return this->age;
 }
-
-
-// int main(){
-//     Capybara c1;
-//     c1.age = 3;
-//     c1.name = "boy";
-
-//     cout<< "Capybara name: "<< c1.getName()<<"Capybara age: "<< c1.getAge()<<endl;
-// }

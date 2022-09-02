@@ -1,9 +1,6 @@
-#include <iostream>
-using namespace std;
 #include "Capybara.h"
 
 
-// default constructor
 Wagon::Wagon()
 {
     this->count = 0;

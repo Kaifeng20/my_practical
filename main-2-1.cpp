@@ -5,31 +5,17 @@ using namespace std;
 
 int main()
 {
+    cout << "*****| Program Started |*****" << endl;
+
     // creating a wagon object
     Wagon wg;
 
     // creating 5 capybara objects
-    Capybara cb1,cb2,cb3,cb4,cb5;
-
-    //cb1 data
-    cb1.setName = "cp1";
-    cb1.setAge = 5;
-
-    //cb2 data
-    cb2.setName = "cp2";
-    cb2.setAge = 4;
-
-    //cb3 data
-    cb3.setName = "cp3";
-    cb3.setAge = 3;
-
-    //cn4 data
-    cb4.setName = "cp4";
-    cb4.setAge = 2;
-
-    //cb5 data
-    cb5.setName = "cp5";
-    cb5.setAge = 1;
+    Capybara cb1("cp1", 3);
+    Capybara cb2("cp2", 4);
+    Capybara cb3("cp3", 5);
+    Capybara cb4("cp4", 2);
+    Capybara cb5("cp5", 1);
 
     // checking if initially wagon is empty or not
     cout << "\n(Initially) isWagon Empty (1 -> true | 0 -> false): " << wg.isEmpty() << endl;
@@ -101,6 +87,7 @@ int main()
     // checking if wagon is empty or not
     cout << "\nisWagon Empty (1 -> true | 0 -> false): " << wg.isEmpty() << endl;
 
+    cout << "\n*****| Program Ended |*****" << endl;
 
     return 0;
 }
