@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 #include <string>
-
+#ifndef Capybara_h
+#define Capybara_h
 class Capybara
 {
 private:
@@ -19,3 +20,4 @@ public:
 
     int getAge();
 };
+#endif
