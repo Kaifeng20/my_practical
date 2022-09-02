@@ -1,13 +1,25 @@
 #include <iostream>
 using namespace std;
+#include "Person.h"
+#include "Airplane.h"
 
-int main(){
-    Person p1(100,"test1"),p2(200,"test2"),p3(300,"test3"),p4(400,"test4");
-    cout << "before setting p1 " << p1.getName() <<" " << p1.getSalary() << endl;
-
-    p1.setName("person1");
-
-    p1.setSalary(1000);
-
-    cout << "after setting p1  " << p1.getName() <<" " << p1.getSalary() << endl;
+int main() {
+    
+    Person p1(100,"Anderson");
+    
+    Person p2(200,"Jones");
+    
+    Person p3(300,"Williams");
+    
+    Airplane a("sign 1",p1,p2);
+    
+ 
+    a.printDetails();
+    
+    a.setPilot(p3);
+    a.printDetails();
+    
+    a.setCoPilot(p1);
+    a.printDetails();
+    return 0;
 }

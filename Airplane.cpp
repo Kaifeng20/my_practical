@@ -3,23 +3,32 @@
 
 Airplane::Airplane(string callsign, Person thePilot, Person theCoPilot)
 {
-    num = callsign;
-    name = thePilot;
-    coPilot = theCoPilot;
+    this->callsign = callsign;
+    this->thePilot = thePilot;
+    this->theCoPilot = theCoPilot;
 }
 
-
-
-
-void Airplane::setPilot(Person thePilot);      // change the pilot
+void Airplane::setPilot(person thePilot)
 {
-    name = thePilot
+    this->thePilot = thePilot; 
 }
 
+string irplane::getPilot()
+{
+    return thePilot;
+}
 
+void Airplane::setCoPilot(person theCoPilot)
+{
+    this->theCoPilot = theCoPilot; 
+}
 
+string irplane::getCoPilot()
+{
+    return theCoPilot;
+}
 
-Person getPilot();
-void setCoPilot(Person theCoPilot);  // change the co-pilot
-Person getCoPilot();
-void printDetails()
+void irplane::printDetails()
+{
+    cout<<callsign<<"\n"<<"Pilot : "<<thePilot.getFirstName()<<"  "<<thePilot.getLastName()<<"\n"<<"CoPilot : "<<theCoPilot.getFirstName()<<"  "<<theCoPilot.getLastName()<<"\n";
+}

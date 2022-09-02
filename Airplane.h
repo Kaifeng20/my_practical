@@ -5,10 +5,10 @@ using namespace std;
 class Airplane
 {
 private:
-    Person ap[3];
+    string callsign;
+    Person thePilot,theCoPilot;
 
-    int num;
-    int count;
+
 
 public:
     Airplane(string callsign, Person thePilot, Person theCoPilot);
@@ -16,5 +16,5 @@ public:
     Person getPilot();
     void setCoPilot(Person theCoPilot);  // change the co-pilot
     Person getCoPilot();
-    void printDetails()
+    void printDetails();
 };
