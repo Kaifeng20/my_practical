@@ -1,4 +1,5 @@
 #include "Wagon.h"
+#include "Capybara.h"
 
 
 Wagon::Wagon()
