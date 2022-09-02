@@ -2,7 +2,8 @@
 #include <iostream>
 using namespace std;
 #include <string>
-
+#ifndef Person_h
+#define Person_h
 class Person
 {
 private:
@@ -17,3 +18,4 @@ public:
     void setSalary(int mySalary);        // change the Person's salary
     int getSalary();
 };
+#endif
