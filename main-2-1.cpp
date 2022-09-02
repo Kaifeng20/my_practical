@@ -31,8 +31,6 @@ int main()
     cb5.setName("cp5");
     cb5.setAge(1);
 
-    // checking if initially wagon is empty or not
-    cout << "\n(Initially) isWagon Empty (1 -> true | 0 -> false): " << wg.isEmpty() << endl;
 
     // adding capybaras to the wagon
     cout << "\nAdding Capybaras to the Wagon: " << endl;
