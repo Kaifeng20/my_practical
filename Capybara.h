@@ -2,11 +2,14 @@
 using namespace std;
 #include <string>
 
-class Capybara{
-public:
-
+class Capybara
+{
+private:
     string name;
     int age;
+
+
+public:
 
     void setName(string capyName);
 
